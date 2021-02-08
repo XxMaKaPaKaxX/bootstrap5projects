@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    height: 300vh;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: -1;
+}
+
+.orange-color {
+    color: rgb(255, 102, 0);
+}
+
+/* NAWIGACJA */
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+nav .navbar-nav,
+nav .fa-bars {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.fa-bars {
+    padding: 1rem 2rem;
+}
+
+/* KONIEC SEKCJI NAWIGACJA */
+
+/* HEADER */
+
+header {
+    position: relative;
+    height: 80vh;
+    background-image: url('./assets/manhattan-407703_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+header .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+
+.header-text {
+    font-size: 2.2rem;
+}
+
+/* KONIEC SEKCJI HEADER */
+/* 
+ABOUT */
+
+.about-boxes h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-icon {
+    font-size: 3rem;
+}
