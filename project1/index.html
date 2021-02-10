@@ -12,8 +12,8 @@
     
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
+<body data-bs-spy="scroll" data-bs-target=".navbarTarget">
+    <nav class="navbar navbarTarget navbar-expand-lg navbar-light bg-light py-4 fixed-top">
         <div class="container">
           <a class="navbar-brand px-4" href="#"><i class="fas fa-camera-retro orange-color px-4"></i>MXN Studio</a>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
     </header>
 
     <main>
-        <section id="aboutus">
+        <section id="aboutus" class="scroll-fix">
             <div class="container py-5 about-boxes">
                 <div class="row text-center">
                     <dvi class="col-12 col-md-6 col-lg-3">
@@ -86,8 +86,175 @@
                     </dvi>
                 </div>
             </div>
+
+
+            <div class="container about-info py-5 text-center">
+                <div class="row">
+                    <div class="col">
+                        <p class="display-3 orange-color">
+                            Czym się wyróźniamy?
+                        </p>
+                        <hr class="my-4 w-50 mx-auto">
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Najlepsza jakość produkcji
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis soluta debitis, blanditiis vel at ipsa accusantium totam tenetur quibusdam dolorem. Voluptatem numquam architecto tempora dolorem! Repellat fugiat quasi eaque!
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Świetne relacje z klientami
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis amet sed pariatur cumque repellat quia sint magnam rem quo esse tempore eum sit vitae quis accusamus, nihil non fugit. Similique?
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Zdobyywcy wielu prestyżowych nagród
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore eius iure totam, perspiciatis maxime aliquid at dolore nobis quia quis nisi vitae fugit. Autem obcaecati reiciendis nobis et corporis non?
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="team" class="scroll-fix">
+            <div class="container text-center">
+                <p class="display-3 orange-color">Zespół</p>
+                <hr class="my-4 w-50 mx-auto">
+                <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illo laborum laboriosam, ipsam quasi magni, pariatur alias tempore consectetur, ex nam aperiam in rem accusamus nemo at repudiandae aut blanditiis.</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/teamMember1.jpg" class="card-img-top" alt="teamMember1">
+                        <div class="card-body">
+                          <h3 class="card-title">Prezes</h3>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around mx-0 py-3">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/teamMember2.jpg" class="card-img-top" alt="teamMember2">
+                        <div class="card-body">
+                          <h3 class="card-title">Marketing</h3>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around mx-0 py-3">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/teamMember3.jpg" class="card-img-top" alt="teamMember3">
+                        <div class="card-body">
+                          <h3 class="card-title">Grafik</h3>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around mx-0 py-3">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/teamMember4.jpg" class="card-img-top" alt="teamMember4">
+                        <div class="card-body">
+                          <h3 class="card-title">Operator</h3>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around mx-0 py-3">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-dark text-light scroll-fix">
+          <div class="container text-center py-5">
+            <p class="display-3 mb-lg-5">Napisz do nas!</p>
+
+            <div class="row">
+              <div class="my-5 m-lg-0 col-lg-3 contact-info order-lg-1">
+                <h3>Adres:</h3>
+                <p>MNX Studio</p>
+                <p>ul. Długa 1313</p>
+                <p>00-000 Warszawa</p>
+                <hr class="w-50 w-lg-100 mx-auto bg-light">
+                <p><i class="fas fa-mobile-alt"></i> +48 000 000 000</p>
+                <p><i class="fab fa-telegram"></i> +48 000 000 000</p>
+              </div>
+
+
+              <div class="col-lg-9">
+                <form class="">
+                  <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text">
+                      <i class="fas fa-user"></i>                      
+                    </span>
+                    <input type="text" class="form-control" placeholder="Imię i nazwisko">
+                  </div>
+
+                  <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text">
+                      <i class="fas fa-at"></i>                      
+                    </span>
+                    <input type="text" class="form-control" placeholder="Adres mailowy">
+                  </div>
+
+                  <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text">
+                      <i class="fas fa-comment-alt"></i>                      
+                    </span>
+                    <textarea class="form-control" placeholder="Treść wiadomości..." rows="6"></textarea>
+                  </div>
+                  <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">
+                </form>
+              </div>
+            </div>
+          </div>
         </section>
     </main>
+    <footer class="bg-dark text-light border-top">
+      <p class="text-center py-4 m-0">&copy; 2020 Copyright</p>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>

@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     height: 300vh;
@@ -26,6 +27,13 @@ body {
 
 .orange-color {
     color: rgb(255, 102, 0);
+}
+
+.scroll-fix::before {
+    display: block;
+    margin-top: -3rem;
+    height: 3rem;
+    content: '';
 }
 
 /* NAWIGACJA */
@@ -69,8 +77,9 @@ header .btn {
 }
 
 /* KONIEC SEKCJI HEADER */
-/* 
-ABOUT */
+
+
+/*ABOUT */
 
 .about-boxes h3 {
     font-size: 2.4rem;
@@ -80,4 +89,49 @@ ABOUT */
 
 .about-icon {
     font-size: 3rem;
+}
+
+#aboutus .accordion-button {
+    font-size: 1.8rem;
+}
+
+#aboutus .accordion-button:not(.collapsed) {
+    color: rgb(255, 102, 0);
+    background-color: rgb(255 102 0 / 5%);
+
+}
+
+/* KONIEC SEKCJI ABOUT */
+
+/* TEAM */
+
+#team {
+    padding: 5rem 0;
+    border-color: rgb(248, 248, 248);
+}
+
+#team .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/*KONIEC SEKCJI TEAM */
+
+/* CONTACT */
+
+#contact h3 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+#contact .contact-info i {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+
+#contact .submit-btn {
+    font-size: 1.6rem;
 }
