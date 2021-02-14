@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+
+/* ###########################
+        NAWIGACJA
+########################### */
+
+nav {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+nav .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.navbar-toggler {
+    font-size: 2.5rem;
+}
+
+/* ###########################
+    KONIEC SEKCJI NAWIGACJA
+########################### */
+
+/* ###########################
+            HEADER
+########################### */
+
+header {
+    position: relative;
+}
+
+.carousel-item {
+    height: 50vh;
+    z-index: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-image-1 {
+    background-image: url('../img/homeCarousel/mustang.jpg');
+}
+
+.carousel-image-2 {
+    background-image: url('../img/homeCarousel/skyline.jpg');
+}
+
+.carousel-image-3 {
+    background-image: url('../img/homeCarousel/supra.jpg');
+}
+
+.carousel-text p {
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    .carousel-item {
+        height: 60vh;
+    }
+
+    .carousel-image-1 {
+        background-image: url('../img/homeCarousel/hq/mustangHQ.jpg');
+    }
+
+    .carousel-image-2 {
+        background-image: url('../img/homeCarousel/hq/skylineHQ.jpg');
+    }
+
+    .carousel-image-3 {
+        background-image: url('../img/homeCarousel/hq/supraHQ.jpg');
+    }
+}
+
+/* ###########################
+    KONIEC SEKCJI HEADER
+########################### */
+
+/* ###########################
+            MAIN
+########################### */
+
+main .home-boxex {
+    padding: 5rem 0;
+}
+
+main .home-box i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+main .home-box h3 {
+    font-size: 2.6rem;
+}
+
+main .home-passion {
+    position: relative;
+    height: 25vh;
+    background-image: url('../img/mainCar/mainCar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+@media (min-width: 992px) {
+    main .home-passion {
+        background-image: url('../img/mainCar/mainCarHQ.jpg');
+    }
+}
+
+.main-info .text h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ###########################
+        KONIEC SEKCJI MAIN
+########################### */
+
+/* ###########################
+        FOOTER
+########################### */
+
+footer p {
+    font-size: 2rem;
+}
