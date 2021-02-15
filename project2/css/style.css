@@ -24,6 +24,26 @@ body {
     z-index: -1;
 }
 
+.additional-text {
+    font-size: 1.8rem;
+}
+
+.top-hero {
+    position: relative;
+    height: 20rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+
 /* ###########################
         NAWIGACJA
 ########################### */
@@ -150,3 +170,79 @@ main .home-passion {
 footer p {
     font-size: 2rem;
 }
+
+
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        PODSTRONA ABOUT
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */
+.aboutus-hero {
+    background-image: url('../img/about/highway.jpg');
+    background-position: bottom;
+}
+
+@media (min-width: 992px) {
+    .aboutus-hero {
+        background-image: url('../img/about/highwayHQ.jpg');
+    }
+}
+
+.aboutus-top .display-3 {
+    text-transform: uppercase;
+}
+
+
+
+/* box-shadow: inset 0 5px 5px grey; */
+
+.passion-and-goals {
+    min-height: 30vh;
+}
+
+.values-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+@media (min-width: 992px) {
+    .passion-and-goals {
+        transform: skewX(-10deg);
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .6);
+    }
+}
+
+.aboutus-card .card-icon {
+    font-size: 4rem;
+}
+
+.about-cards .card-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+       KONIEC PODSTRONY ABOUT
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        PODSTRONA SERVICES
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */
+
+
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    KONIEC PODSTRONY SERVICES
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */
