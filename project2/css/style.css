@@ -239,7 +239,61 @@ footer p {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
 ########################### */
 
+.services-hero {
+    background-image: url('../img/services/car-top.jpg');
+    background-position: bottom;
+}
 
+@media (min-width: 992px) {
+    .services-hero {
+        background-image: url('../img/services/car-topHQ.jpg');
+        background-position: 50% 80%;
+    }
+}
+
+.service-hero-box {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.service-hero-box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+    background-image: url('../img/services/service-card/mechanical-tuning.jpg');
+}
+
+.service-pricing .box-two {
+    background-image: url('../img/services/service-card/visual-tuning.jpg');
+}
+
+.service-pricing .box-three {
+    background-image: url('../img/services/service-card/audio-tuning.jpg');
+}
+
+.service-pricing .box-four {
+    background-image: url('../img/services/service-card/all-in.jpg');
+}
+
+.service-pricing .accordion-button {
+    font-size: 2rem;
+}
+
+.service-pricing .accordion .card-body h3 {
+    font-weight: bold;
+}
+
+.service-pricing .accordion .card-footer .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
 
 /* ###########################
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
