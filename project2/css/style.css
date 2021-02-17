@@ -333,3 +333,69 @@ footer p {
     KONIEC PODSTRONY PROJECTS
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
 ########################### */
+
+
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    PODSTRONA CONTACTS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */
+
+.contacts-hero {
+    background-image: url('../img/contact/shelby.jpg');
+    background-position: center;
+}
+
+@media (min-width: 992px) {
+    .contacts-hero {
+        background-image: url('../img/contact/shelbyHQ.jpg');
+        background-position: center;
+    }
+}
+
+
+.contact-data h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-data h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-data .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    font-size: 1.6rem;
+}
+
+.contact-form .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    KONIEC PODSTRONY CONTACTS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */

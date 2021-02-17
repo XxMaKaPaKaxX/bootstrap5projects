@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frost customs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#"><i class="fas fa-icicles text-primary mx-2"></i>Fro<span class="text-primary">st</span>Customs</a>
+          <button class="navbar-toggler px-4 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="aboutus.html">O firmie</a>
+              <a class="nav-link " href="services.html">Uslugi</a>
+              <a class="nav-link" href="projects.html" >Projekty</a>
+              <a class="nav-link active" href="#" aria-current="page">Kontakt</a>
+            </div>
+          </div>
+        </div>
+    </nav>    
+    <main>
+      <section class="top-hero contacts-hero">
+        <div class="hero-shadow"></div>
+        <p class="top-hero-text text-light">Kontakt</p>
+      </section>
+      <div class="container">
+        <div class="text-center py-5">
+          <p class="display-3 ">Napisz do nas!</p>
+          <p class="additional-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <section class="container mb-4">
+        <div class="row">
+          <div class="col-md-4 border text-center p-4 contact-data">
+            <h2>Dane kontaktowe</h2>
+            <p>Lorem ipsum dolor sit.</p>
+            <div class="adres mt-5">
+              <h3>Adres</h3>
+              <p>ul. Długa 0,</p>
+              <p>00-000 Kraków</p>
+            </div>
+            <div class="telephon mt-5">
+              <h3>Telefon</h3>
+              <p>+48 000 00 00</p>
+            </div>
+            <div class="email mt-5">
+              <h3>E-mail</h3>
+              <p>mail@gmail.com</p>
+            </div>
+            <hr>
+            <p class="logo">
+              <i class="fas fa-icicles text-primary mx-2"></i>Fro<span class="text-primary">st</span>Customs
+            </p>
+          </div>
+
+          <div class="col-md-8 contact-form border text-center">
+            <h2 class="p-4">Formularz kontaktowy</h2>
+            <form></form>
+            <div class="row p-4">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="contact-form-name" class="form-label">imię i nazwisko</label>
+                  <input type="text" class="form-control" id="contact-form-name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="contact-form-email" class="form-label">Adres mailowy</label>
+                  <input type="email" class="form-control" id="contact-form-email">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="contact-form-whichcar" class="form-label">Jaki masz samochód?</label>
+                  <select class="form-select" aria-label="Default select example" id="contact-form-whichcar">
+                    <option selected></option>
+                    <option value="1">BMW</option>
+                    <option value="2">Ford</option>
+                    <option value="3">Audi</option>
+                    <option value="4">Toyota</option>
+                    <option value="5">Opel</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="contact-form-whichservice" class="form-label">W jakiej sprawie piszesz?</label>
+                  <select class="form-select" aria-label="Default select example" id="contact-form-whichservice">
+                    <option selected></option>
+                    <option value="1">Tuning mechaniczny</option>
+                    <option value="2">Tuning wizualny</option>
+                    <option value="3">Tuning audio</option>
+                    <option value="4">Tuning all-in-one</option>
+                    <option value="4">inna sprawa</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="contact-form-textaria" class="form-label">Wpisz treść wiadomości</label>
+                  <textarea rows="5" class="form-control" aria-label="With textarea" id="contact-form-textaria"></textarea>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary mb-4">Wyślij</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+      <section class="contact-map pb-5">
+        <div class="container">
+          <div class="text-center py-5">
+            <p class="display-5">Mapa dojazdu</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d275415.6798765638!2d20.19069995588992!3d50.108767032417866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471644c0354e18d1%3A0xb46bb6b576478abf!2zS3Jha8Ozdw!5e0!3m2!1spl!2spl!4v1613556469418!5m2!1spl!2spl" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </section>
+
+      
+
+    </main>
+    <footer class="bg-dark text-light">
+      <p class="p-5 text-center mb-0">        
+        2021 &copy; Copyright <i class="fas fa-icicles text-primary mx-2"></i> FrostCustoms        
+      </p>
+    </footer>   
+    
+</body>
+</html>
