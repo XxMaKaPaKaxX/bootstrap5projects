@@ -300,3 +300,36 @@ footer p {
     KONIEC PODSTRONY SERVICES
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
 ########################### */
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    PODSTRONA PROJECTS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */
+
+.projects-hero {
+    background-image: url('../img/projects/project-hero.jpg');
+    background-position: center;
+}
+
+.card-project img {
+    height: 175px;
+    object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+    .card-project img {
+        height: 240px;
+    }
+}
+
+.card-project .card-body .btn {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* ###########################
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    KONIEC PODSTRONY PROJECTS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
+########################### */
