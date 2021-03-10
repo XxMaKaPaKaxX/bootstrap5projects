@@ -7,7 +7,7 @@ let options = {
     data: [11, 32, 45, 32, 34, 52, 41]
   }],
     chart: {
-    height: 350,
+    height: 300,
     type: 'area',
     foreColor: '#fff'
   },

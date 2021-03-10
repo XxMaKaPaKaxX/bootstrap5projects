@@ -102,7 +102,7 @@ body {
 }
 
 .main-stat-box {
-    height: 140px;
+    height: 130px;
     border-radius: 15px;
     transition: .2s;
 }
@@ -119,4 +119,36 @@ body {
 
 .main-stat-box p {
     font-size: 1.2rem;
+}
+
+
+
+.page-link {
+    background-color: transparent;
+    padding: .5em 1em;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.page-link:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.table-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sorting .dropdown-toggle,
+.sorting .dropdown-item {
+    font-size: 1.3rem;
+}
+
+.main-table .table-dark {
+    background-color: transparent;
+}
+
+table th,
+table td {
+    font-size: 1.4rem;
 }
