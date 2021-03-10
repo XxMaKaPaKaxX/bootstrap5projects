@@ -42,102 +42,173 @@
                 </section>
             </div>
             <div class="panel-right col-10 p-0">
-                <div class="col-9 mt-5">
-                    <section class="main-stats py-4 px-5 text-light text-center">
-                        <h1 class="mb-5">Główne statystyki</h1>
-                        <div class="row mb-2">
-                            <div class="col-4">
-                                <div class="main-stat-box p-5 border">
-                                    <h3 class="mb-3">postów</h3>
-                                    <p>Łącznie: 4.250.120</p>
-                                    <p>W tym miesiącu: 125.562</p>
+                <div class="row m-0 h-100">
+                    <div class="col-9 mt-5">
+                        <section class="main-stats py-4 px-5 text-light text-center">
+                            <h1 class="mb-5">Główne statystyki</h1>
+                            <div class="row mb-2">
+                                <div class="col-4">
+                                    <div class="main-stat-box p-5 border">
+                                        <h3 class="mb-3">postów</h3>
+                                        <p>Łącznie: 4.250.120</p>
+                                        <p>W tym miesiącu: 125.562</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="main-stat-box p-5 border">
+                                        <h3 class="mb-3">tematów</h3>
+                                        <p>Łącznie: 1.830.524</p>
+                                        <p>W tym miesiącu: 35.990</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="main-stat-box p-5 border">
+                                        <h3 class="mb-3">użytkowników</h3>
+                                        <p>Łącznie: 750.031</p>
+                                        <p>W tym miesiącu: 8.315</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-4">
-                                <div class="main-stat-box p-5 border">
-                                    <h3 class="mb-3">tematów</h3>
-                                    <p>Łącznie: 1.830.524</p>
-                                    <p>W tym miesiącu: 35.990</p>
+                            <div id="chart" class="py-3 text-dark">
+                            </div>
+                        </section>
+                        <section class="main-table p-5">
+                            <div class="main-table-header d-flex justify-content-between mb-3">
+                                <h3 class="text-light table-title">Ostatnie posty</h3>
+                                <div class="dropdown sorting">
+                                    <a class="btn btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sortuj
+                                    </a>
+                                
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Według dat</a></li>
+                                    <li><a class="dropdown-item" href="#">Według autora</a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-4">
-                                <div class="main-stat-box p-5 border">
-                                    <h3 class="mb-3">użytkowników</h3>
-                                    <p>Łącznie: 750.031</p>
-                                    <p>W tym miesiącu: 8.315</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="chart" class="py-3 text-dark">
-                        </div>
-                    </section>
-                    <section class="main-table p-5">
-                        <div class="main-table-header d-flex justify-content-between mb-3">
-                            <h3 class="text-light table-title">Ostatnie posty</h3>
-                            <div class="dropdown sorting">
-                                <a class="btn btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Sortuj
-                                </a>
-                              
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <li><a class="dropdown-item" href="#">Według dat</a></li>
-                                  <li><a class="dropdown-item" href="#">Według autora</a></li>
+                            <table class="table table-dark table-hover">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Temat</th>
+                                    <th scope="col">Użytkownik</th>
+                                    <th scope="col">Data</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">1</th>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>Gonzo</td>
+                                    <td>20/20/2020</td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">2</th>
+                                    <td>Lorem ipsum, dolor sit amet consectetur adipisicing.</td>
+                                    <td>Jacob</td>
+                                    <td>20/20/2020</td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">3</th>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td>Luna</td>
+                                    <td>20/20/2020</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <nav aria-label="main-table-pagination">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                    <a class="page-link text-light" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link text-light" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link text-light" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link text-light" href="#">3</a></li>
+                                    <li class="page-item">
+                                    <a class="page-link text-light" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                    </li>
                                 </ul>
-                              </div>
+                            </nav>
+                            
+                        </section>
+                    </div>
+
+                    <div class="col-3 mt-5 text-center aside">                        
+                        <div class="firm-logo text-light py-4">                                
+                            <h2><i class="far fa-gem mx-2"></i>Diamond</h2>
+                            <p class="slogan my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi.</p>
+                        </div>                        
+                        <div class="users-online text-light mb-3">
+                            <h3 class="users-title">Użytkownicy online</h3>
+                            <p>47</p>
                         </div>
-                        <table class="table table-dark table-hover">
-                            <thead>
-                                <tr>
-                                  <th scope="col">#</th>
-                                  <th scope="col">Temat</th>
-                                  <th scope="col">Użytkownik</th>
-                                  <th scope="col">Data</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                  <th scope="row">1</th>
-                                  <td>Lorem ipsum dolor sit.</td>
-                                  <td>Gonzo</td>
-                                  <td>20/20/2020</td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">2</th>
-                                  <td>Lorem ipsum, dolor sit amet consectetur adipisicing.</td>
-                                  <td>Jacob</td>
-                                  <td>20/20/2020</td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">3</th>
-                                  <td>Lorem ipsum dolor sit amet.</td>
-                                  <td>Luna</td>
-                                  <td>20/20/2020</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        
-                        <nav aria-label="main-table-pagination">
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item">
-                                <a class="page-link text-light" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
-                                </li>
-                                <li class="page-item"><a class="page-link text-light" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link text-light" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link text-light" href="#">3</a></li>
-                                <li class="page-item">
-                                <a class="page-link text-light" href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        
-                    </section>
-                </div>
-                <div class="col-3 mt-5">
-                    
+                        <div class="users-gender text-light mb-3">
+                            <h3 class="users-title">Płeć użytkowników</h3>
+                            <div class="users-gender-icons d-flex justify-content-around">
+                                <div class="users-male d-flex flex-column justify-content-center align-items-center">
+                                    <i class="fas fa-male"></i>
+                                    <span class="gender-percent">56%</span>
+                                </div>
+
+                                <div class="users-female d-flex flex-column justify-content-center align-items-center">
+                                    <i class="fas fa-female"></i>
+                                    <span class="gender-percent">44%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="statistics text-light">
+                            <h3 class="users-title">Statystyki</h3>                            
+                            <select class="form-select month-select bg-dark text-light mb-3" required aria-label="select example">
+                                <option selected value="1">styczeń</option>
+                                <option value="2">luty</option>
+                                <option value="3">marzec</option>
+                                <option value="4">kwiecień</option>
+                                <option value="5">maj</option>
+                                <option value="6">czerwiec</option>
+                                <option value="7">lipiec</option>
+                                <option value="8">sierpień</option>
+                                <option value="9">wrzesień</option>
+                                <option value="10">październik</option>
+                                <option value="11">listopad</option>
+                                <option value="12">grudzień</option>
+                            </select>
+
+                            <div class="row">
+                                <div class="col-6 mb-4">
+                                    <p class="info">Posty</p>
+                                    <p class="number text-muted">125.703</p>
+                                </div>
+                                <div class="col-6 mb-4">
+                                    <p class="info">Rejestracja</p>
+                                    <p class="number text-muted">8.093</p>
+                                </div>
+                                <div class="col-6 mb-4">
+                                    <p class="info">Śr. czas - aktywność</p>
+                                    <p class="number text-muted">15min</p>
+                                </div>
+                                <div class="col-6 mb-4">
+                                    <p class="info">Śr. czas - pobyt</p>
+                                    <p class="number text-muted">25min</p>
+                                </div>
+                                <div class="col-6 mb-4">
+                                    <p class="info">Ilość zamówień</p>
+                                    <p class="number text-muted">829</p>
+                                </div>
+                                <div class="col-6 mb-4">
+                                    <p class="info">Ilość reklamacji</p>
+                                    <p class="number text-muted">6</p>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
