@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="panel">
+        <div class="row h-100 m-0">
+            <div class="panel-left col-2 d-flex flex-column align-items-center p-0 px-4">
+                <section class="time-and-date d-flex flex-column justify-content-center align-items-center p-3 text-light">
+                    <p class="day mb-0">Środa</p>
+                    <p class="time mb-0">12:00</p>
+                    <p class="date mb-0 text-muted">20/20/2020</p>
+                </section>
+                <section class="menu d-flex flex-column justify-content-between align-items-center w-100">
+                    <a href="index.html" class="menu-link active">
+                        <i class="fas fa-sliders-h mb-4"></i>
+                        <h3>Strona główna</h3>
+                    </a>
+                    <a href="#" class="menu-link">
+                        <i class="fas fa-comments mb-4"></i>
+                        <h3>Posty</h3>
+                    </a>
+                    <a href="#" class="menu-link">
+                        <i class="fas fa-user-friends mb-4"></i>
+                        <h3>Użytkownicy</h3>
+                    </a>
+                </section>
+                <section class="mini-footer text-light text-center mt-4">
+                    <h3>Diamond CMD</h3>
+                    <p class="text-muted">&copy; Copyright 2021</p>
+                </section>
+            </div>
+            <div class="panel-right col-10 p-0 text-light text-center posts">                
+                <section class="info-top my-2 pt-5">
+                    <h1 class="display-2">Posty</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, soluta?</p>
+                </section>
+                <section class="py-4">
+                    <h3 class="mb-4">Wyróżnione posty</h3>
+                    <div class="container">
+                        <div class="post-carusel mx-5">
+                            <div class="card bg-transparent m-3 p-3 border-white featured-post">
+                                <div class="card-body">
+                                    <p class="card-title mb-0">Temat:</p>
+                                    <p class="text-muted">#nazwa-tematu</p>
+                                    <p class="card-text"><strong>Treść:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex atque nisi.</p>
+                                    <button class="btn btn-outline-light btn-show-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz post</button>
+                                </div>
+                            </div>
+                            <div class="card bg-transparent m-3 p-3 border-white featured-post">
+                                <div class="card-body">
+                                    <p class="card-title mb-0">Temat:</p>
+                                    <p class="text-muted">#nazwa-tematu</p>
+                                    <p class="card-text"><strong>Treść:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex atque nisi.</p>
+                                    <button class="btn btn-outline-light btn-show-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz post</button>
+                                </div>
+                            </div>
+                            <div class="card bg-transparent m-3 p-3 border-white featured-post">
+                                <div class="card-body">
+                                    <p class="card-title mb-0">Temat:</p>
+                                    <p class="text-muted">#nazwa-tematu</p>
+                                    <p class="card-text"><strong>Treść:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex atque nisi.</p>
+                                    <button class="btn btn-outline-light btn-show-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz post</button>
+                                </div>
+                            </div>
+                            <div class="card bg-transparent m-3 p-3 border-white featured-post">
+                                <div class="card-body">
+                                    <p class="card-title mb-0">Temat:</p>
+                                    <p class="text-muted">#nazwa-tematu</p>
+                                    <p class="card-text"><strong>Treść:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex atque nisi.</p>
+                                    <button class="btn btn-outline-light btn-show-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz post</button>
+                                </div>
+                            </div>
+                            <div class="card bg-transparent m-3 p-3 border-white featured-post">
+                                <div class="card-body">
+                                    <p class="card-title mb-0">Temat:</p>
+                                    <p class="text-muted">#nazwa-tematu</p>
+                                    <p class="card-text"><strong>Treść:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex atque nisi.</p>
+                                    <button class="btn btn-outline-light btn-show-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz post</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+                <section class="p-5 mx-5 most-activeusers">
+                    <h3 class="mb-4">Najaktywniejsi użytkownicy</h3>
+                    <div class="conteiner">
+                        <div class="row row-cols-3 g-4">
+                            <div class="col">                            
+                                <div class="card bg-transparent user-card">
+                                    <div class="img-hover-zoom">
+                                        <img src="./img/posts/beautiful-2576845_640.jpg" class="card-img-top user-img" alt="user image">
+                                    </div>
+                                    <div class="card-body d-flex justify-content-between py-4 px-1 align-items-center">
+                                        <h5 class="card-title">#nazwa-użytkowniaka</h5>
+                                        <button class="btn btn-outline-light">Pokaż profil</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">                            
+                                <div class="card bg-transparent user-card">
+                                    <div class="img-hover-zoom">
+                                        <img src="./img/posts/cowgirl-419084_640.jpg" class="card-img-top user-img" alt="user image">
+                                    </div>
+                                    <div class="card-body d-flex justify-content-between py-4 px-1 align-items-center">
+                                        <h5 class="card-title">#nazwa-użytkowniaka</h5>
+                                        <button class="btn btn-outline-light">Pokaż profil</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">                            
+                                <div class="card bg-transparent user-card">
+                                    <div class="img-hover-zoom">
+                                        <img src="./img/posts/from-the-sky-fall-2036457_640.jpg" class="card-img-top user-img" alt="user image">
+                                    </div>
+                                    <div class="card-body d-flex justify-content-between py-4 px-1 align-items-center">
+                                        <h5 class="card-title">#nazwa-użytkowniaka</h5>
+                                        <button class="btn btn-outline-light">Pokaż profil</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="find-post border-top pt-3 px-5">
+                    <h3>Znajdź post</h3>
+                    <div class="container w-75">
+                        <div class="input-group my-2">                            
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Szukaj po
+                                </button>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Nazwie użytkownika</a></li>
+                                <li><a class="dropdown-item" href="#">Nazwie tematu</a></li>
+                                <li><a class="dropdown-item" href="#">Słowach kluczowych</a></li>                                
+                            </div>
+                            <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                            <button class="btn btn-outline-info" type="button">Szukaj</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content text-dark">
+                            <div class="modal-header">                            
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="topic mb-4">
+                                    <h3 class="modal-body-title">Temat:</h3>
+                                    <p>Nazwa tematu</p>
+                                </div>
+                                <div class="content mb-4">
+                                    <h3 class="modal-body-title">Treść:</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, quidem!</p>
+                                </div>
+                                <div class="options mb-4">
+                                    <h3 class="modal-body-title">Opcje:</h3>
+                                    <div class="modal-body-buttons">
+                                        <span class="btn btn-outline-success"><i class="far fa-edit"></i> Edytuj</span>
+                                        <span class="btn btn-outline-danger"><i class="far fa-trash-alt"></i> Usuń</span>
+                                        <span class="btn btn-outline-info"><i class="fas fa-link"></i> Pokaż w temacie</span>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+                                <button type="button" class="btn btn-primary">Zapisz zmiany</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.post-carusel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: true,
+            });
+        });
+    </script>
+</body>
+</html>

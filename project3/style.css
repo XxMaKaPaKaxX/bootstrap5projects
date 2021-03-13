@@ -16,6 +16,15 @@ body {
     height: 100vh;
 }
 
+.info-top h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info-top p {
+    font-size: 1.6rem;
+}
+
 .panel {
     width: 1400px;
     height: 850px;
@@ -200,4 +209,82 @@ table td {
 
 .statistics .number {
     font-size: 1.4rem;
+}
+
+
+/* ##############################################
+
+POSDTRONA POSTY
+
+############################################## */
+
+.posts h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.featured-post .card-title {
+    font-size: 1.8rem;
+}
+
+.featured-post .card-body {
+    font-size: 1.4rem;
+}
+
+.featured-post .btn {
+    font-size: 1.6rem;
+}
+
+.featured-post:hover {
+    background-image: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
+}
+
+
+.img-hover-zoom {
+    overflow: hidden;
+    width: 100%;
+    height: 180px;
+}
+
+.user-img {
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.6;
+    transition: .3s;
+}
+
+.user-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.user-card .card-title,
+.user-card .btn {
+    font-size: 1.2rem;
+}
+
+.find-post,
+.find-post input,
+.find-post .btn,
+.find-post .dropdown-item {
+    font-size: 1.4rem;
+}
+
+.modal-body {
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.modal-body .modal-body-title {
+    font-size: 2.6rem;
+}
+
+.modal-body .modal-body-buttons span {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.modal-footer .btn {
+    font-size: 1.6rem;
 }
