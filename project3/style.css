@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 html {
@@ -101,7 +100,6 @@ body {
 
 .panel-right {
     background-image: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
-
 }
 
 .main-stats h1 {
@@ -129,8 +127,6 @@ body {
 .main-stat-box p {
     font-size: 1.2rem;
 }
-
-
 
 .page-link {
     background-color: transparent;
@@ -211,7 +207,6 @@ table td {
     font-size: 1.4rem;
 }
 
-
 /* ##############################################
 
 POSDTRONA POSTY
@@ -239,7 +234,6 @@ POSDTRONA POSTY
 .featured-post:hover {
     background-image: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
 }
-
 
 .img-hover-zoom {
     overflow: hidden;
@@ -287,4 +281,42 @@ POSDTRONA POSTY
 
 .modal-footer .btn {
     font-size: 1.6rem;
+}
+
+/* ##############################################
+
+POSDTRONA UŻYTKOWNICY
+
+############################################## */
+
+.users-list .user {
+    border: solid wheat 1px;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    font-size: 1.6rem;
+    padding: 10px 15px;
+}
+
+.users-list .user:hover {
+    background-image: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
+}
+
+.users-list .user .btn {
+    font-size: 1.6rem;
+}
+
+.searching .search-logo h2 {
+    font-size: 3.4rem;
+    text-shadow: 0 0 5px #fff;
+
+}
+
+.searching-form,
+.searching-form input,
+.searching-form select {
+    font-size: 1.6rem;
+}
+
+.searching-form .form-buttons button {
+    font-size: 1.4rem;
 }
